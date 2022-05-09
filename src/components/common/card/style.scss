@@ -1,0 +1,28 @@
+
+.card_container{
+    margin-top: 40px;
+.card_wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-inline: 20px;
+}
+.card_subwrapper{
+        width: 259px;
+        border-radius: 12px;
+        height: 173px;
+        box-shadow: rgb(0 0 0 / 25%) 0px 0px 4px;
+    }
+    .card-header{
+        // display: flex;
+        // flex-direction: row;
+        // margin-left:25px ;
+        // margin-top:-22px ;
+        // display: "flex",
+        // flexDirection: "row",
+        // marginLeft: 25,
+        // marginTop: -22,
+    }
+}

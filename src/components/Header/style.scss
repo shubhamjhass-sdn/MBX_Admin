@@ -1,0 +1,96 @@
+/* .header {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-width: 5px; */
+  /* border: '1px solid red';
+}
+.brand_logo {
+}
+.header_bar {
+}
+.user_name {
+  display: flex;
+  flex-direction: column;
+}
+
+.user {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.role {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.user_start {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.message {
+  background: #ffffff;
+  box-sizing: border-box;
+} */
+.header{
+    background-color: red;
+}
+.profile-user {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .profile-role {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9D9D9D;
+  }
+  .navbar-brand{
+    padding: 0px 99px;
+    border: 1px solid #e5e9ed;
+
+  }
+  .profile-container{
+    display: flex;
+  }
+  .profile-image{
+    margin-right: 10px;
+  }
+  .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bellicon .ant-badge{
+    min-width: 10px; 
+    margin: 7px;
+  }
+.form-control{
+  background: #EDEDED;
+border-radius: 3px;
+}
+  .fa{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 22.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+  }
