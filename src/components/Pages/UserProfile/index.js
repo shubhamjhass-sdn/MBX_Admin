@@ -151,7 +151,7 @@ const UserProfile = () => {
    <CommonTable
    columns={columns}
    data={data}
-   pagination ={<Pagination showQuickJumper defaultCurrent={2} total={500} onChange={onChange} />}
+   pagination={<Pagination showQuickJumper defaultCurrent={2} total={500} onChange={onChange} />}
    />
    </div>
     

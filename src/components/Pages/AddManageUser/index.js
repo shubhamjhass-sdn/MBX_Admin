@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, Tag, Space, Avatar,Dropdown,Button,Menu ,message} from 'antd';
+import { Table, Tag, Space, Avatar,Dropdown,Button,Menu ,message,Pagination} from 'antd';
 import { DownOutlined, UserOutlined } from '@ant-design/icons';
 import Cards from '../../common/card';
 import CommonTable from '../../common/Table';
@@ -140,6 +140,7 @@ const AddManageUser= () => {
       <CommonTable
       columns= {columns}
       data = {data}
+      pagination={<Pagination size="small" total={50} showSizeChanger showQuickJumper />}
       />
       </div>
       </div>

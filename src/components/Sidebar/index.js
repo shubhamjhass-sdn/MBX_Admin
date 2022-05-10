@@ -15,6 +15,9 @@ import AddManageBrand from "../Pages/AddManageBrand";
 import Header from "../Header/Header";
 import DataNetProcess from "../Pages/Data_Net_Process";
 import UserProfile from "../Pages/UserProfile";
+import Current_brand_value from "../Pages/Current_Brand_Value";
+import Total_value_of_platforms from "../Pages/Total_value_of_platform";
+import Brand_Distribution_list from "../Pages/Brand_Distribution_List";
 const { Content, Sider } = Layout;
 
 
@@ -60,6 +63,7 @@ const sideBarOptions = [
       {
         key: "4",
         name: "Current Brand Value",
+        routepath:"/currentbrandvalue"
       },
       {
         key: "5",
@@ -133,6 +137,11 @@ const Sidebar = () => {
       case "/managebrand":return settab(2)
       case "/datanetprocess":return settab(3)
       case "/userProfile":return settab(4)
+      case "/currentbrandvalue":return settab(5)
+      case "/totalvalueofplatform":return settab(6)
+      case "/branddistributionlist":return settab(7)
+      case "/transactionhistory":return settab(8)
+      case "/shortseller":return settab(9)
       default: return settab(1)
         
     }
@@ -144,6 +153,11 @@ const Sidebar = () => {
       case 2:return<AddManageBrand/>
       case 3:return<DataNetProcess/>
       case 4:return<UserProfile/>
+      case 5:return<Current_brand_value/>
+      case 6:return<Total_value_of_platforms/>
+      case 7:return<Brand_Distribution_list/>
+      case 8:return<Brand_Distribution_list/>
+
       default: return <AddManageUser/>
 
     }
